@@ -29,3 +29,5 @@ npm-debug.log
 node_modules
 lib/tasks/gs_harvest.rake
 db/seeds.rb
+jetty/jettywrapper.log
+*.DS_Store

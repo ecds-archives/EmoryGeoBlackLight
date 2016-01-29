@@ -1,0 +1,15 @@
+@import 'bootstrap-variables';
+
+#header-navbar {
+    a.navbar-brand{
+        background: transparent url(/assets/Emory_logo_GeoSearch.png) no-repeat top left !important;
+        width: 315px;
+        margin-top: .5em;
+    }
+}
+
+$navbar-height: 70px;
+$brand-primary: $emory-blue;
+$navbar-inverse-bg: $emory-blue;
+$navbar-inverse-link-color: $emory-lightgrey;
+$navbar-inverse-link-hover-color: $emory-darkgrey;
