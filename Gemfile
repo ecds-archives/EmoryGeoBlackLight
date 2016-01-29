@@ -43,3 +43,15 @@ group :development, :test do
   gem 'spring'
 end
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
+
+# GeoBlackLight
+gem 'blacklight'
+gem 'geoblacklight'
+gem 'jettywrapper'
+
+gem 'rsolr', '~> 1.0.6'
+gem 'devise'
+gem 'devise-guests', '~> 0.3'

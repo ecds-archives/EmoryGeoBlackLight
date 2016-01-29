@@ -1,0 +1,103 @@
+0    [main] INFO  org.eclipse.jetty.server.Server  – jetty-8.1.10.v20130312
+31   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /mnt/hgfs/data/EmoryGeoBlackLight/jetty/contexts at interval 0
+43   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /mnt/hgfs/data/EmoryGeoBlackLight/jetty/contexts/solr.xml
+129  [main] INFO  org.eclipse.jetty.webapp.WebInfConfiguration  – Extract jar:file:/mnt/hgfs/data/EmoryGeoBlackLight/jetty/webapps/solr.war!/ to /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr-webapp/webapp
+2842 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2987 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
+3016 [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
+3016 [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr
+3016 [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/'
+3021 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/lib/contrib/' to classloader
+3022 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/lib/solr-analysis-extras-4.10.3.jar' to classloader
+3022 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/lib/solr-clustering-4.10.3.jar' to classloader
+3022 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/lib/solr-langid-4.10.3.jar' to classloader
+3206 [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/solr.xml
+3419 [main] INFO  org.apache.solr.core.CoresLocator  – Config-defined core root directory: /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr
+3427 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 1752520574
+3429 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/]
+3430 [main] INFO  org.apache.solr.core.CoreContainer  – loading shared library: /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/lib
+3432 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/lib/contrib/' to classloader
+3432 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/lib/solr-analysis-extras-4.10.3.jar' to classloader
+3432 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/lib/solr-clustering-4.10.3.jar' to classloader
+3433 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/lib/solr-langid-4.10.3.jar' to classloader
+3481 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
+3481 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: null
+3489 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
+3489 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
+3489 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
+3490 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
+3490 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
+3490 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
+3490 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
+3924 [main] INFO  org.apache.solr.update.UpdateShardHandler  – Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=false
+3926 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+3927 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+3927 [main] INFO  org.apache.solr.core.CoreContainer  – Host Name: 
+3959 [main] INFO  org.apache.solr.core.CoresLocator  – Looking for core definitions underneath /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr
+3967 [main] INFO  org.apache.solr.core.CoresLocator  – Found core blacklight-core in /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/
+4005 [main] INFO  org.apache.solr.core.CoresLocator  – Found 1 core definitions
+4008 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/'
+4153 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 4.7.0
+4302 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+4321 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/conf/schema.xml
+4373 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [blacklight-core] Schema name=geoblacklight-schema
+4594 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – unique key field: uuid
+4682 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'blacklight-core' using configuration from instancedir /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/
+4696 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – solr.NRTCachingDirectoryFactory
+4702 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Opening new SolrCore at /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/, dataDir=/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/data/
+4703 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: blacklight-core
+4710 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=stanford}, {q=polygon}]}
+4711 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+4722 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/data
+4725 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/data/index/
+4725 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.SolrCore  – [blacklight-core] Solr index directory '/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/data/index' doesn't exist. Creating new index...
+4731 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/data/index
+4830 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/data/index lockFactory=NativeFSLockFactory@/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+4830 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+4889 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+4894 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: org.apache.solr.handler.UpdateRequestHandler
+4894 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json: org.apache.solr.handler.UpdateRequestHandler
+4894 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+4894 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+4897 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /get: solr.RealTimeGetHandler
+4897 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
+4898 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+4904 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /search: solr.SearchHandler
+4904 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /select: solr.SearchHandler
+4906 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.RequestHandlers  – Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+4906 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+4908 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: solr.admin.AdminHandlers
+4910 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+4910 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+4910 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+4928 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4931 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4932 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4932 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4933 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+4948 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: if uncommited for 15000ms; 
+4948 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+4957 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/data/index lockFactory=NativeFSLockFactory@/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+4958 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+4964 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@f4d05d1[blacklight-core] main
+4969 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – File-based storage initialized to use dir: /mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/conf
+4970 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  – Initializing RestManager with initArgs: {storageDir=/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/conf}
+4981 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – Reading _rest_managed.json using file:dir=/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/conf
+4984 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – Loaded LinkedHashMap at path _rest_managed.json using file:dir=/mnt/hgfs/data/EmoryGeoBlackLight/jetty/solr/blacklight-core/conf
+4984 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResource  – Loaded initArgs {} for /rest/managed
+4984 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  – Initializing 0 registered ManagedResources
+4993 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – QuerySenderListener sending requests to Searcher@f4d05d1[blacklight-core] main{StandardDirectoryReader(segments_1:1:nrt)}
+4997 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – registering core: blacklight-core
+5013 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/mnt/hgfs/data/EmoryGeoBlackLight/jetty
+5013 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
+5114 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8983
+5213 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=dct_isPartOf_sm,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+5225 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=dct_spatial_sm,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+5225 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=dc_creator_sm,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+5225 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=dc_subject_sm,memSize=4288,tindexSize=0,time=0,phase1=0,nTerms=0,bigTerms=0,termInstances=0,uses=0}
+5229 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=235 
+5230 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – QuerySenderListener done.
+5230 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Registered new searcher Searcher@f4d05d1[blacklight-core] main{StandardDirectoryReader(segments_1:1:nrt)}
+183425 [qtp1533217329-11] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={f.dc_creator_sm.facet.limit=9&f.dc_rights_s.facet.limit=9&facet=true&sort=score+desc,+dc_title_sort+asc&f.solr_year_i.facet.limit=11&f.dc_format_s.facet.limit=9&f.dct_provenance_s.facet.limit=9&q.alt=*:*&f.dc_publisher_s.facet.limit=9&wt=ruby&rows=10&f.layer_geom_type_s.facet.limit=9&f.dct_spatial_sm.facet.limit=9&start=0&f.dc_subject_sm.facet.limit=9&f.dct_isPartOf_sm.facet.limit=9&facet.field=dct_provenance_s&facet.field=dc_creator_sm&facet.field=dc_publisher_s&facet.field=dc_subject_sm&facet.field=dct_spatial_sm&facet.field=dct_isPartOf_sm&facet.field=solr_year_i&facet.field=dc_rights_s&facet.field=layer_geom_type_s&facet.field=dc_format_s&qt=search} hits=0 status=0 QTime=6 
