@@ -1,0 +1,25 @@
+{
+    "uuid": "r9jps",
+    "dc_description_s": "Color map showing Grant Park, Cyclorama Building, Grant Park Baptist Church and W.F. Slaton School.",
+    "dc_format_s": "Map",
+    "dc_identifier_s": "r9jps",
+    "dc_language_s": "English",
+    "dc_publisher_s": "U.S. Coast and Geodetic Survey and City of Atlanta Mapping Division",
+    "dc_rights_s": "The City of Atlanta has granted Emory University, Woodruff Library, permission to digitize, distribute, display and geo-reference maps produced by the U.S. Coast Guard and Geodetic Survey and the City of Altanta Mapping Division in a 1928 survey published as the Atlas of Atlanta and VIcinity. Emory may digitize, display, and georeference the maps in electronic formats, including free public access to maps on the web. The City of Atlanta does not attest to the accuracy of the image. The Maps Content, including all images and text, are for personal, educational, and non-commercial use only.",
+    "dc_title_s": "City of Atlanta: Sheet 45",
+    "dc_type_s": "Image",
+    "dct_references_s": {
+        "http://schema.org/url":"http://pid.emory.edu/ark:/25593/r9jps",
+        "http://www.opengis.net/def/serviceType/ogc/wms":"https://geospatial.library.emory.edu/geoserver/wms"
+    },
+    "dct_temporal_sm": ["1928"],
+    "dct_issued_s": "2016",
+    "dct_provenance_s": "Emory",
+    "georss_box_s": "33.732602 -84.365596 33.744093 -84.377128",
+    "layer_slug_s": "pid-r9jps",
+    "layer_id_s": "ATLMaps:r9jps",
+    "layer_geom_type_s": "Paper Map",
+    "layer_modified_dt": "2012-10-31T13:43:00Z",
+    "solr_geom": "ENVELOPE(-84.365596, -84.377128, 33.744093, 33.732602)",
+    "solr_year_i": 1928
+}
